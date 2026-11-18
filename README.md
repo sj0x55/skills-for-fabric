@@ -158,7 +158,9 @@ Notes:
 The full bundle includes skills for SQL data warehouse, Database Hub
 cross-engine estate inventory/health/security posture, Spark and Lakehouse,
 Power BI semantic models, Eventhouse and KQL, Eventstreams, Dataflows Gen2,
-catalog search, migration scenarios, and medallion architecture workflows.
+catalog search, cross-workload job-failure RCA and trends through
+`fabric-job-failure-rca`, migration scenarios, and medallion architecture
+workflows.
 
 See [CHANGELOG.md](CHANGELOG.md) for public release notes.
 

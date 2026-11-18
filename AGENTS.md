@@ -88,6 +88,7 @@ Fabric REST APIs: https://learn.microsoft.com/en-us/rest/api/fabric/articles/
 - REST APIs for programmatic management
 - Pipelines for orchestration
 - Parameterize everything for reusability
+- Fabric job failure RCA skill: `skills/fabric-job-failure-rca/SKILL.md` — read-only single-run investigations, bounded failure overviews and trends, and optional correlation with existing customer Eventhouse telemetry. Route deep diagnostics to the owning workload skill; never rerun jobs or change resources as part of RCA.
 - Warehouse operations skill: `skills/sqldw-cli/SKILL.md` — performance diagnostics, slow queries, query insights
 - Database Hub operations skill: `skills/databasehub-cli/SKILL.md` — read-only cross-engine estate health, issues/suggestions, and security posture through Entra-authenticated Fabric APIs
 - Azure Monitor observability operations skill: `skills/azmon-mirroredcatalogs-operations-cli/SKILL.md` — onboard Azure Monitor / App Insights / Log Analytics observability data into Fabric and correlate telemetry with business data for business-impact insights, an optional Real-Time (KQL) dashboard, and opt-in Operations Agent instructions

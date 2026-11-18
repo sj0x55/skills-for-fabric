@@ -1,0 +1,5 @@
+name: fabric-job-failure-rca
+version: 0.1.0
+description: "Read-only Fabric job-failure RCA, top-failure summaries, and trends using run history, workload diagnostics, and optional customer Eventhouse telemetry."
+author: Microsoft Fabric
+license: MIT

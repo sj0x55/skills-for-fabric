@@ -83,6 +83,9 @@ Developers use REST APIs to manage artifacts, then protocol-specific connections
 - Spark skill: `skills/spark-cli/SKILL.md` — read-only triage for failed jobs, stuck sessions, and performance bottlenecks
 - Spark job history: paginate retained runs before client-side selection; no server-side `limit`. Warehouse promotion: keep supported-list and feature-preview claims scoped; the definition API exists (`sqlproj`/`dacpac`), not a binary schema-diff guarantee.
 
+### Cross-Workload Job Failure RCA
+- Use `skills/fabric-job-failure-rca/SKILL.md` for read-only single-run investigations, bounded failure overviews and trends, and optional correlation with existing customer Eventhouse telemetry. Route deep diagnostics to the owning workload skill; never rerun jobs or change resources during RCA.
+
 ### Azure Monitor Observability (Real-Time Intelligence)
 - Operations skill: `skills/azmon-mirroredcatalogs-operations-cli/SKILL.md` — onboard Azure Monitor / App Insights / Log Analytics observability data into Fabric and correlate telemetry with business data for business-impact insights, an optional Real-Time (KQL) dashboard, and opt-in Operations Agent instructions
 

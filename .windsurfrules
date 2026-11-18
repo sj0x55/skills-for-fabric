@@ -55,6 +55,10 @@ rules:
     reference: skills/spark-cli/SKILL.md
     diagnostic_alm_contract: "Paginate retained Spark history before client-side selection; no server-side limit. Warehouse promotion: scope supported-list and feature-preview claims separately; the definition API exists (sqlproj/dacpac), not a binary schema-diff guarantee."
 
+  - name: fabric_job_failure_rca
+    description: Use fabric-job-failure-rca for read-only single-run investigations, bounded failure overviews and trends, and optional correlation with existing customer Eventhouse telemetry; route deep diagnostics to the owning workload skill and never rerun jobs or change resources during RCA
+    reference: skills/fabric-job-failure-rca/SKILL.md
+
   - name: project_osmos
     description: Use project-osmos for complex long-running Lakehouse, OneLake, notebook, or Spark outcomes from local agents; in Fabric portal Copilot return availability guidance without API calls
     reference: skills/project-osmos/SKILL.md

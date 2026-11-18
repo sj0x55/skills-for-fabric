@@ -4,6 +4,13 @@ User-facing changes for the public Microsoft Fabric Skills release.
 
 ## [Unreleased]
 
+### Added
+- **`fabric-job-failure-rca`** -- investigate an existing failed Fabric run or
+  summarize bounded failure patterns and trends across supported workloads using
+  evidence-backed, read-only diagnostics. The skill can correlate approved
+  existing Eventhouse telemetry, delegates deep diagnostics to workload skills,
+  and never reruns jobs or changes resources as part of RCA.
+
 ## [0.3.22] - 2026-11-12
 
 ### Added

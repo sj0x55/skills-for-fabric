@@ -37,6 +37,7 @@
     "./skills/variable-library-cli",
     "./skills/deployment-pipelines-authoring-cli",
     "./skills/fabric-policies-cli",
+    "./skills/fabric-job-failure-rca",
     "./skills/databricks-migration",
     "./skills/pipeline-migration",
     "./skills/synapse-migration",

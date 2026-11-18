@@ -67,6 +67,10 @@ https://learn.microsoft.com/en-us/rest/api/fabric/articles/
   - Spark diagnostics: `skills/spark-cli/SKILL.md` — read-only triage for failed jobs, stuck sessions, and performance bottlenecks
   - Spark job history: paginate retained runs before client-side selection; no server-side `limit`. Warehouse promotion: keep supported-list and feature-preview claims scoped; the definition API exists (`sqlproj`/`dacpac`), not a binary schema-diff guarantee.
 
+### Cross-Workload Job Failure RCA
+- Use `skills/fabric-job-failure-rca/SKILL.md` for read-only investigation of one failed run, bounded failure overviews and trends, or optional correlation with existing customer Eventhouse telemetry.
+- Route deep diagnostics to the owning workload skill. RCA never reruns jobs, starts diagnostic sessions, provisions telemetry, or changes resources.
+
 ### Data Warehouse
 - **Warehouse**: T-SQL data warehouse
   - Docs: https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing
